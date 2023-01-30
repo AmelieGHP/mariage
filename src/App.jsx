@@ -13,6 +13,9 @@ function App() {
   const [showNav, setShowNav] = useState(window.innerWidth > 1000);
   const animationContainer = useRef(null);
   const anim = useRef(null);
+  console.log(
+    "Coucou les Dave! Pour les motivés, Nathalie propose de vous accueillir pour un barbecue entre le cocktail et le bal, vu qu'elle habite à côté! Voir avec elle pour l'orga!"
+  );
   useEffect(() => {
     if (animationContainer.current) {
       anim.current = lottie.loadAnimation({
