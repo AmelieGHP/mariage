@@ -4,8 +4,12 @@ import church from "../assets/church.png";
 import couple from "../assets/couple.png";
 import discoball from "../assets/disco-ball.png";
 import wine from "../assets/wine.png";
+import weddingCar from "../assets/weddingCar.png";
 
 export default function Home() {
+  console.log(
+    "Coucou les Dave! Pour les motivés, Nathalie propose de vous accueillir pour un barbecue entre le cocktail et le bal, vu qu'elle habite à côté! Voir avec elle pour l'orga!"
+  );
   return (
     <div className="homePage">
       <div className="pageContent">
@@ -47,8 +51,14 @@ export default function Home() {
               <p className="accentText">Église</p>
             </div>
             <div className="programme">
-              <img src={wine} alt="cocktail" />
+              <img src={weddingCar} alt="voiture" />
               <p>16h30</p>
+              <p className="accentText">En route</p>
+              <small>vers le domaine</small>
+            </div>
+            <div className="programme">
+              <img src={wine} alt="cocktail" />
+              <p>17h00</p>
               <p className="accentText">Cocktail</p>
             </div>
             <div className="programme">

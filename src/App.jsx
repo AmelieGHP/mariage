@@ -13,9 +13,7 @@ function App() {
   const [showNav, setShowNav] = useState(window.innerWidth > 1000);
   const animationContainer = useRef(null);
   const anim = useRef(null);
-  console.log(
-    "Coucou les Dave! Pour les motivés, Nathalie propose de vous accueillir pour un barbecue entre le cocktail et le bal, vu qu'elle habite à côté! Voir avec elle pour l'orga!"
-  );
+
   useEffect(() => {
     if (animationContainer.current) {
       anim.current = lottie.loadAnimation({
@@ -67,11 +65,11 @@ function App() {
       <Router>
         {showNav && <Nav handleClick={handleClick} />}{" "}
         <Routes>
-          <Route path="/Mariage" element={<Home />} />
-          <Route path="/Mariage/infos-pratiques" element={<Infos />} />
-          <Route path="/Mariage/plans" element={<Plans />} />
-          <Route path="/Mariage/hebergement" element={<Hebergement />} />
-          <Route path="/Mariage/liste-mariage" element={<Liste />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/infos-pratiques" element={<Infos />} />
+          <Route path="/plans" element={<Plans />} />
+          <Route path="/hebergement" element={<Hebergement />} />
+          <Route path="/liste-mariage" element={<Liste />} />
         </Routes>
       </Router>
     </div>
