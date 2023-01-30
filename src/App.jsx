@@ -67,11 +67,11 @@ function App() {
       <Router>
         {showNav && <Nav handleClick={handleClick} />}{" "}
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/infos-pratiques" element={<Infos />} />
-          <Route path="/plans" element={<Plans />} />
-          <Route path="/hebergement" element={<Hebergement />} />
-          <Route path="/liste-mariage" element={<Liste />} />
+          <Route path="/Mariage" element={<Home />} />
+          <Route path="/Mariage/infos-pratiques" element={<Infos />} />
+          <Route path="/Mariage/plans" element={<Plans />} />
+          <Route path="/Mariage/hebergement" element={<Hebergement />} />
+          <Route path="/Mariage/liste-mariage" element={<Liste />} />
         </Routes>
       </Router>
     </div>

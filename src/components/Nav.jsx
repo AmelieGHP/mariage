@@ -23,7 +23,7 @@ function Nav({ handleClick }) {
       </div>
       <div className="tabs">
         <NavLink
-          to="/"
+          to="/Mariage"
           className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
           onClick={window.innerWidth < 1000 && handleClick}
         >
@@ -31,7 +31,7 @@ function Nav({ handleClick }) {
           <p> Accueil</p>
         </NavLink>
         <NavLink
-          to="/infos-pratiques"
+          to="/Mariage/infos-pratiques"
           className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
           onClick={window.innerWidth < 1000 && handleClick}
         >
@@ -39,7 +39,7 @@ function Nav({ handleClick }) {
           <p> Infos pratiques</p>
         </NavLink>
         <NavLink
-          to="/hebergement"
+          to="/Mariage/hebergement"
           className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
           onClick={window.innerWidth < 1000 && handleClick}
         >
@@ -47,7 +47,7 @@ function Nav({ handleClick }) {
           <p> Hébergement</p>
         </NavLink>
         <NavLink
-          to="/plans"
+          to="/Mariage/plans"
           className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
           onClick={window.innerWidth < 1000 && handleClick}
         >
@@ -55,7 +55,7 @@ function Nav({ handleClick }) {
           <p> Plans d'accès</p>
         </NavLink>
         <NavLink
-          to="/liste-mariage"
+          to="/Mariage/liste-mariage"
           className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
           onClick={window.innerWidth < 1000 && handleClick}
         >
