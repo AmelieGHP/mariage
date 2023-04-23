@@ -88,7 +88,7 @@ const Hebergement = () => {
           </p>
         </div>
         <div className="textContainer innerBox">
-          <h4>La Chambre du Gardien - 2 à 4 personnes - Disponible -</h4>
+          <h4>La Chambre du Gardien - 2 à 4 personnes <span>- Complet -</span></h4>
           <p>
             De plain pied : 1 lit 2 places (160*200), 1 banquette convertible 2
             places (2x80*200), WC, salle d'eau avec douche{" "}
