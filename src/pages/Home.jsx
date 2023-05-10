@@ -1,4 +1,4 @@
-import nousDeux from "../assets/image1.jpg";
+import nousDeux from "../assets/Image1.jpg";
 import banquet from "../assets/banquet.png";
 import church from "../assets/church.png";
 import couple from "../assets/couple.png";
