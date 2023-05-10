@@ -1,6 +1,7 @@
 import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import Infos from "./pages/Infos";
+import Photos from "./pages/Photos";
 import Plans from "./pages/Plans";
 import Hebergement from "./pages/Hebergement";
 import Liste from "./pages/Liste";
@@ -66,9 +67,10 @@ function App() {
         {showNav && <Nav handleClick={handleClick} />}{" "}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/infos-pratiques" element={<Infos />} />
-          <Route path="/plans" element={<Plans />} />
-          <Route path="/hebergement" element={<Hebergement />} />
+           <Route path="/photos" element={<Photos />} />
+//           <Route path="/infos-pratiques" element={<Infos />} />
+//           <Route path="/plans" element={<Plans />} />
+//           <Route path="/hebergement" element={<Hebergement />} />
           <Route path="/liste-mariage" element={<Liste />} />
         </Routes>
       </Router>
