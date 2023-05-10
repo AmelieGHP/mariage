@@ -31,30 +31,6 @@ function Nav({ handleClick }) {
           <MdOutlinePhotoCamera style={{ fontSize: "20px" }} />
           <p> Photos</p>
         </NavLink>
-//         <NavLink
-//           to="/infos-pratiques"
-//           className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
-//           onClick={window.innerWidth < 1000 && handleClick}
-//         >
-//           <RiInformationLine style={{ fontSize: "20px" }} />
-//           <p> Infos pratiques</p>
-//         </NavLink>
-//         <NavLink
-//           to="/hebergement"
-//           className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
-//           onClick={window.innerWidth < 1000 && handleClick}
-//         >
-//           <RiHotelBedFill style={{ fontSize: "20px" }} />
-//           <p> Hébergement</p>
-//         </NavLink>
-//         <NavLink
-//           to="/plans"
-//           className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
-//           onClick={window.innerWidth < 1000 && handleClick}
-//         >
-//           <RiMapPinLine style={{ fontSize: "20px" }} />
-//           <p> Plans d'accès</p>
-//         </NavLink>
         <NavLink to="/liste-mariage" className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")} onClick={window.innerWidth < 1000 && handleClick}>
           <TbGift style={{ fontSize: "20px" }} />
           <p>Liste de mariage</p>
