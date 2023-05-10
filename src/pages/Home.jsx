@@ -19,7 +19,7 @@ export default function Home() {
             <h4 className="accentText">
               Bienvenue sur le site de notre mariage !
             </h4>
-<p>
+            <p>
               Merci pour votre participation à notre grand jour, que ce soit par
               votre présence ou par la pensée!
             </p>
@@ -33,6 +33,8 @@ export default function Home() {
               <NavLink to="/photos">Photos</NavLink>.
             </p>
       </div>
+      </div>      
+    </div>
     </div>
   );
 }
