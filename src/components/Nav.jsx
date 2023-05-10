@@ -5,6 +5,7 @@ import { RiHomeHeartFill } from "react-icons/ri";
 import { RiInformationLine } from "react-icons/ri";
 import { RiMapPinLine } from "react-icons/ri";
 import { TbGift } from "react-icons/tb";
+import { MdOutlinePhotoCamera } from "react-icons/md";
 import cadre from "../assets/cadre.jpg";
 
 function Nav({ handleClick }) {
@@ -31,29 +32,37 @@ function Nav({ handleClick }) {
           <p> Accueil</p>
         </NavLink>
         <NavLink
-          to="/infos-pratiques"
+          to="/photos"
           className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
           onClick={window.innerWidth < 1000 && handleClick}
         >
-          <RiInformationLine style={{ fontSize: "20px" }} />
-          <p> Infos pratiques</p>
+          <MdOutlinePhotoCamera style={{ fontSize: "20px" }} />
+          <p> Photos</p>
         </NavLink>
-        <NavLink
-          to="/hebergement"
-          className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
-          onClick={window.innerWidth < 1000 && handleClick}
-        >
-          <RiHotelBedFill style={{ fontSize: "20px" }} />
-          <p> Hébergement</p>
-        </NavLink>
-        <NavLink
-          to="/plans"
-          className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
-          onClick={window.innerWidth < 1000 && handleClick}
-        >
-          <RiMapPinLine style={{ fontSize: "20px" }} />
-          <p> Plans d'accès</p>
-        </NavLink>
+//         <NavLink
+//           to="/infos-pratiques"
+//           className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
+//           onClick={window.innerWidth < 1000 && handleClick}
+//         >
+//           <RiInformationLine style={{ fontSize: "20px" }} />
+//           <p> Infos pratiques</p>
+//         </NavLink>
+//         <NavLink
+//           to="/hebergement"
+//           className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
+//           onClick={window.innerWidth < 1000 && handleClick}
+//         >
+//           <RiHotelBedFill style={{ fontSize: "20px" }} />
+//           <p> Hébergement</p>
+//         </NavLink>
+//         <NavLink
+//           to="/plans"
+//           className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
+//           onClick={window.innerWidth < 1000 && handleClick}
+//         >
+//           <RiMapPinLine style={{ fontSize: "20px" }} />
+//           <p> Plans d'accès</p>
+//         </NavLink>
         <NavLink
           to="/liste-mariage"
           className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
