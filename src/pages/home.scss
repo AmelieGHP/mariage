@@ -49,6 +49,17 @@
 
     & p {
       max-width: 600px;
+      
+            & a {
+        color: $accentColor;
+        font-weight: 600;
+      }
+
+      & a:hover {
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        font-weight: 600;
+      }
     }
 
     & .accentText {
@@ -126,6 +137,7 @@
       }
       & a {
         color: $accentColor;
+        font-weight: 600;
 
         & svg {
           margin-right: 4px;
