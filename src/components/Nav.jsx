@@ -55,11 +55,7 @@ function Nav({ handleClick }) {
 //           <RiMapPinLine style={{ fontSize: "20px" }} />
 //           <p> Plans d'accès</p>
 //         </NavLink>
-        <NavLink
-          to="/liste-mariage"
-          className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
-          onClick={window.innerWidth < 1000 && handleClick}
-        >
+        <NavLink to="/liste-mariage" className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")} onClick={window.innerWidth < 1000 && handleClick}>
           <TbGift style={{ fontSize: "20px" }} />
           <p>Liste de mariage</p>
         </NavLink>
