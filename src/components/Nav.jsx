@@ -23,19 +23,11 @@ function Nav({ handleClick }) {
         </div>
       </div>
       <div className="tabs">
-        <NavLink
-          to="/"
-          className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
-          onClick={window.innerWidth < 1000 && handleClick}
-        >
+        <NavLink to="/" className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")} onClick={window.innerWidth < 1000 && handleClick}>
           <RiHomeHeartFill style={{ fontSize: "20px" }} />
           <p> Accueil</p>
         </NavLink>
-        <NavLink
-          to="/photos"
-          className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")}
-          onClick={window.innerWidth < 1000 && handleClick}
-        >
+        <NavLink to="/photos" className={({ isActive }) => (isActive ? "tabFocus" : "tabDefault")} onClick={window.innerWidth < 1000 && handleClick}>
           <MdOutlinePhotoCamera style={{ fontSize: "20px" }} />
           <p> Photos</p>
         </NavLink>
