@@ -44,9 +44,14 @@ const Photos = () => {
           </p>
           <p>
             <TbHexagon className="noMargin" />
-            Nous sommes en attente des photos de notre photographe et
-            partagerons le lien vers sa galerie en ligne ici : elles seront
-            libres de téléchargement pour chacun.
+            Les photos de notre photographe sont libres de téléchargement pour chacun sur sa galerie, en HD :{" "}
+            <a
+              href="https://twinheart.pic-time.com/JTxSyuYJEqiMh"
+              target="_blank"
+            > {" "}
+              cliquez ici
+            </a>
+          .
           </p>
         </div>
       </div>
