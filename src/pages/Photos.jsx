@@ -6,7 +6,7 @@ const Photos = () => {
   return (
     <div className="pageContent">
       <div className="container programmeBox">
-        <h3>Photos </h3>
+        <h3>Photos de notre mariage</h3>
         <div className="textContainer">
           <p>
             <TbHexagon className="noMargin" />
@@ -44,14 +44,16 @@ const Photos = () => {
           </p>
           <p>
             <TbHexagon className="noMargin" />
-            Les photos de notre photographe sont libres de téléchargement pour chacun sur sa galerie, en HD :{" "}
+            Les photos de notre photographe sont libres de téléchargement pour
+            chacun sur sa galerie, en HD :{" "}
             <a
               href="https://twinheart.pic-time.com/JTxSyuYJEqiMh"
               target="_blank"
-            > {" "}
+            >
+              {" "}
               cliquez ici
             </a>
-          .
+            .
           </p>
         </div>
       </div>
